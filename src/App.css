@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&family=Poppins:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Roboto:ital,wght@1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+
+body{
+  background-color: #282D35;
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  /* padding: 25px; */
+  margin-top: 2.5vh;
+  margin-bottom: 2.5vh;
+  margin-left: 27.5%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #21222a;
+  width: 45%;
+  height: 95vh;
+}
+
+.under{
+  padding: 15px;
+}
+
+.details{
+  padding: 15px;
+}
+
+.name{
+  font-size: 18px;
+  font-family: Outfit, 'Gadugi';
+  text-align: center;
+  color: white;
+  margin: 0;
+  font-weight: 700;
+}
+
+.job{
+  color: white;
+  margin: 0;
+  font-size: 12px;
+  text-align: center;
+}
+
+.image-holder{
+  width: 100%;
+  height: 200px;
+}
+
+.buttons{
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button{
+  width: 45%;
+  padding: 10px;
+  border: none;
+  display: flex;
+  text-align: center;
+  border-radius: 4px;
+  font-family: Verdana,sans-serif;
+}
+
+button small{
+  margin-top: px;
+  margin-left: 5px;
+}
+
+.e-button{
+  background-color: white;
+}
+
+.l-button{
+  background-color: rgb(47, 47, 160);
+  color: white;
+}
+
+
+.image-holder img{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+h3{
+  font-size: 18px;
+  margin: 0;
+  color: white;
+  font-family: raleway,sans-serif;
+}
+
+.about p, .interest p{
+  font-family: poppins,sans-serif;
+  font-size: 10px;
+  color: white;
+}
+
+@media screen and (min-width: 1000px) {
+  .image-holder{
+    height: 300px;
+  }
+  .container{
+    width: 30%;
+    margin-left: 35%;
+  }
+
+}
